@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic</title>
+    <link rel="stylesheet" href="Cinema_Seats.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="register.css">
+    <script type="text/javascript" src="Login_Regist.js"></script>
+</head>
+<body>
+  <div>
+    <header>
+      <nav class="st">
+        <ul>
+          <li id="login" class="login_1"><a href="f_page.html"><button>Logout</button></a></li>
+        </ul>
+      </nav>
+      <br>
+      <br>
+      <nav class="nd">
+        <ul>
+          <li class="home"><a href="Web_Project.html">Home</a></li>
+          <li class="movies"><a href="Coming_Soon.html">Coming Soon</a></li>
+          <li class="contact"><a href="form.html">Contact Us</a></li>
+          <li class="about"><a href="About_Us.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+    <label class="lab_1"><b>Select a movie:</b></label>
+  <div class="movie-container">
+  <select class="selectBox_1" id="movie">
+    <option>Movie name</option>
+    <option>Fast and furious 9</option>
+    <option>Joker</option>
+    <option>Logan</option>
+    <option>Jungle Cruise</option>
+    <option>Venom</option>
+    <option>Black Widow</option>
+    <option>Wrath of man</option>
+</select>
+</div>
+<label class="lab_2"><b>Select show time:</b></label>
+<div class="selectWrapper">
+<select class="selectBox_2">
+<option>     Show time      </option>
+<option> 6:00 pm to 8:00 pm </option>
+<option> 12:00 am to 2:00 am </option>
+</select>
+</div>
+<div class="showcase_1">
+  <ul class="showcase">
+  <li>
+    <div class="seat"></div>
+    <small >Available</small>
+  </li>
+  <li>
+    <div class="seat selected"></div>
+    <small>Selected</small>
+  </li>
+  <li>
+    <div class="seat sold"></div>
+    <small >Sold</small>
+  </li>
+  </ul>
+</div>
+<div class="container">
+  <div class="screen"></div>
+  <div class="row">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+  </div>
+  <div class="row">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+  </div>
+  <div class="row">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+  </div>
+  <div class="row">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+  </div>
+  <div class="row">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat sold"></div>
+    <div class="seat sold"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+  </div>
+  <div class="row">
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat sold"></div>
+    <div class="seat sold"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+    <div class="seat"></div>
+  </div>
+</div>
+<p class="text">
+  You have selected <span id="count"> 0 </span>seat for a price of total RS. <span id="total"> 0 </span>
+</p>
+<br>
+<br>
+<div class="_submit_2">
+  <a href="Web_Project.html"><button type="submit">Submit</button></a>
+</div>
+<script src="Cinema_Seats.js"></script>
+</body>

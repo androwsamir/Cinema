@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cinema_33</title>
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="css.css">
+
+<!--<hr> -->
+  </head>
+  <body>
+    <div class="">
+      <header>
+        <nav class="st">
+          <ul>
+            <li class="login"><a href="">Login</a></li>
+            <li class="regist"><a href="">Regist</a></li>
+          </ul>
+        </nav>
+        <br>
+        <br>
+        <nav class="nd">
+          <ul>
+            <li class="home"><a href="">Home</a></li>
+            <li class="movies"><a href="">Movies</a></li>
+            <li class="contact"><a href="">Contact Us</a></li>
+            <li class="about"><a href="">About Us</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          
+          <img src="images/1.jpeg" width="100%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          
+          <img src="images/black weado.jpeg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          
+          <img src="images/jungel.jpeg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          
+          <img src="images/warth.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <div>
+        <video class="fast-tra" src="vid/FAST AND FURIOUS 9 Trailer (2021)(720P_HD).mp4" controls poster="images\1.jpeg" ></video>
+        <video class="black-tra" src="vid/Marvel Studios_ Black Widow _ New Trailer(720P_HD).mp4" controls poster="images\2.jpeg"></video>
+        <video class="jungle-tra" src="vid/JUNGLE CRUISE Trailer (2021)(720P_HD).mp4" controls poster="images\3.jpeg" ></video>
+        <video class="warth-tra" src="vid/WRATH OF MAN _ Official Trailer _ MGM Studios(720P_HD).mp4" controls poster="images\4.jpeg" ></video>
+    </div>
+    <script src="Java.js"></script>
+  </body>
+</html>

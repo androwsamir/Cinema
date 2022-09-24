@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+:root
+{
+  --main-color:rgb(43, 39, 39);
+
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin:0;
+  background: var(--main-color);
+  /*  background-image: url("images\new fast .jpeg"); */
+}header nav{
+  text-align: center;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+header nav ul li{
+  display: inline-block;
+  border: 2px rgba(255, 255, 255, 0) solid;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px 10px 30px 10px;
+  background-color: black;
+}
+header nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+  .nd li{
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .nd li:hover
+  {
+    background-color: rgb(71, 67, 67);
+  }
+  a{
+      color: white;
+  }
+  .newfast
+  {
+      margin-left: 236px;
+      height: 385px;
+      width: 260px;
+  }
+  .fast-tra
+  {
+      margin-left: 50px;
+
+      height: 385px;
+  }
+  .name
+  {
+      margin-left: 236px;
+      color: white
+  }
+  .disc
+  {
+    margin-left: 236px;
+    color: white;
+      width:500px ;
+  }
+  .book
+  {
+
+    margin-left: 746px;
+    height: 46px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: rgb(219, 49, 143);
+    font-weight: bold;
+    border: rgba(238, 130, 238, 0);
+    cursor: pointer;
+  }
+  .book:hover
+  {
+      background-color: rgb(165, 44, 100);
+  }
+
+  .line
+  {
+
+      margin-left: 236px;
+  }
+
+
+
+
+  .Logo
+  {
+    height: 301px;
+    position: absolute;
+    top: -67px;
+    right: 1231px;
+  }
+  div aside ul{
+    position: absolute;
+    left:220px;
+    color: white;
+  }
+.art{
+  position: absolute;
+  right:200px;
+  top:820px;
+  color: white;
+}
+.discri
+{
+  color: white;
+  position: absolute;
+  top: 880px;
+  right: 940px;
+}

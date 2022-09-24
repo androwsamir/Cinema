@@ -1,0 +1,129 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+.login_1{
+  display: inline-block;
+  border: 2px rgba(255, 255, 255, 0) solid;
+  padding: 0;
+  border-radius: 0;
+  margin: 0;
+  background-color: rgb(43, 39, 39);
+  top:40px;
+  left:1280px;
+  width:5px;
+  height:50px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+.login_1 button{
+  background-color:rgb(43, 39, 39);
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  width: 90px;
+  padding: 50%;
+  font-size: 20px;
+  height: 30px;
+  color: #15f4ee;
+  font-family: Arial,sans-serif;
+  font-weight: 400;
+  border: 3px solid;
+  cursor: pointer;
+  border-radius: 90px;
+  transition: 1.5s;
+}
+.login_1 button:hover{
+  box-shadow: 0 2px 20px 0 #15f4ee inset, 0 2px 20px 0 #15f4ee,0 2px 20px 0 #15f4ee inset, 0 2px 20px 0 #15f4ee;
+  text-shadow: 0 0 5px #15f4ee,0 0 5px #15f4ee;
+  color: rgb(71, 67, 67);
+}
+.login_1 button{
+  background-color:rgb(43, 39, 39);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login_1 button:hover{
+  color: rgb(71, 67, 67);
+}
+.container__1 button,.container__2 button{
+  cursor: pointer;
+}
+.container__1 .remember input{
+  cursor: pointer;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+  height: 244px;
+}
+.container__1{
+  background: rgb(43, 39, 39);
+  text-align: center;
+  padding: 20px;
+}
+.container__1 label{
+  color: white;
+}
+.container__2{
+  text-align: center;
+}
+.container__1 .remember{
+  margin: 0;
+}
+.cancelbtn{
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.container__2 button{
+  margin-top: 0;
+  margin-bottom: 20px
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}

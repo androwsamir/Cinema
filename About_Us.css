@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin:0;
+  background:  rgb(43, 39, 39);
+  color: white;
+}
+header nav{
+  text-align: center;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+header nav ul li{
+  display: inline-block;
+  border: 2px rgba(255, 255, 255, 0) solid;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px 10px 30px 10px;
+  background-color: black;
+}
+header nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.st{
+  text-align: right;
+  margin: 30px;
+}
+.nd{
+  user-select: none;
+}
+.container{
+  user-select: none;
+}
+.movies{
+  margin-left: 50px;
+}
+ .about{
+  margin-left: 50px;
+}
+.contact{
+  margin-left: 50px;
+}
+.nd ul li a{
+  color: white;
+}
+header nav ul li a:hover{
+    color: rgb(71, 67, 67);
+}
+#about-us p{
+    margin: 10px 10px 2px 10px;
+    font-size: 22px;
+}
+#about-us  {
+    font-size: 22px;
+}
+h3{
+    margin: 10px 10px 15px 30px;
+    font-size: 28px;
+}
+ul {
+    margin: 20px 20px 20px 50px;
+    font-size: 18px ;
+}
+h4 {
+    margin: 10px 10px 15px 30px;
+    font-size: 20px;
+}
+#Our-names {
+    margin: 10px 10px 10px 50px;
+    font-size: 18px;
+    font-style: italic;
+}
+a{
+    color:aqua;
+    text-decoration: none;
+}
+#copy {
+    font-size: 10px;
+    font-family: serif;
+    color: rgb(187, 167, 167);
+}

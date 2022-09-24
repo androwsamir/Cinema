@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+}
+:root
+{
+  --main-color:rgb(43, 39, 39);
+
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin:0;
+   background:  var(--main-color);
+}
+header nav{
+  text-align: center;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+header nav ul li{
+  display: inline-block;
+  border: 2px rgba(255, 255, 255, 0) solid;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px 10px 30px 10px;
+  background-color: black;
+}
+header nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.st{
+  text-align: right;
+  margin: 30px;
+}
+.nd{
+  user-select: none;
+}
+.container{
+  user-select: none;
+}
+.movies{
+  margin-left: 50px;
+}
+ .about{
+  margin-left: 50px;
+}
+.contact{
+  margin-left: 50px;
+}
+a{
+  color: white;
+}
+header nav ul li a:hover{
+    color: rgb(71, 67, 67);
+}
+div span a img{
+  height: 600px;
+  width: 650px;
+}
+.same_1,.same_2,.same_3,.same_4{
+  margin: 100px 60px 100px 60px;
+}
+.same_4{
+  left: 390px
+}
+.same_12,.same_13,.same_14{
+  margin-left: 35px;
+}
+.same_1,.same_2,.same_3,.same_4,.same_12,.same_13,.same_14 {
+  position: relative;
+  width: 50%;
+}
+.image{
+  opacity: 1;
+  display: inline-block;
+  width: 650px;
+  height: 600px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.same_1:hover .image {
+  opacity: 0.3;
+}
+.same_2:hover .image {
+  opacity: 0.3;
+}
+.same_3:hover .image {
+  opacity: 0.3;
+}
+.same_4:hover .image {
+  opacity: 0.3;
+}
+.same_12:hover .image {
+  opacity: 0.3;
+}
+.same_13:hover .image {
+  opacity: 0.3;
+}
+.same_14:hover .image {
+  opacity: 0.3;
+}
+.container_1 {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.mySlides{
+  position: relative;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+.mySlides .text{
+  position: absolute;
+  bottom: -500px;
+  font-size: 50px;
+  left: 0px;
+  top: 375px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 1000px;
+  height: 150px;
+  padding: 20px;
+  user-select: none;
+}
+.container_1 .content_1 {
+  position: absolute;
+  bottom: -295px;
+  left: 60px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 650px;
+  padding: 20px;
+}
+.container_1 .content_2{
+  position: absolute;
+  bottom: -295px;
+  left: 810px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 651px;
+  padding: 20px;
+}
+.container_1 .content_3{
+  position: absolute;
+  bottom: -986px;
+  left: 60px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 650px;
+  padding: 20px;
+}
+._dots{
+  user-select: none;
+}
+.container_1 .content_4{
+  position: absolute;
+  bottom: -986px;
+  left: 810px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 650px;
+  padding: 20px;
+}
+.container_1 .content_5{
+  position: absolute;
+  bottom: -1679px;
+  left: 60px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 651px;
+  padding: 20px;
+}
+.container_1 .content_6{
+  position: absolute;
+  bottom: -1679px;
+  left: 810px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 651px;
+  padding: 20px;
+}
+.container_1 .content_7{
+  position: absolute;
+  bottom: -2371px;
+  left: 450px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 650px;
+  padding: 20px;
+}
+.container_1 a{
+  text-decoration: none;
+}
+.container_1 a:hover{
+  color: rgb(71, 67, 67);
+}
+hr{
+  border: none;
+  height: 33px;
+  width: 333px;
+  margin: 30px auto;
+}
+.mySlides {
+    display:none;
+}
+img {
+  vertical-align: middle;
+}
+
+.text a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.text a:hover{
+  color: rgb(71, 67, 67);
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cinematic</title>
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="f_page.css">
+    <link rel="stylesheet" href="login_pages.css">
+    <link rel="stylesheet" href="register_pages.css">
+    <script type="text/javascript" src="Login_Regist.js"></script>
+    <script type="text/javascript" src="pages.js"></script>
+  </head>
+  <body>
+    <div>
+      <header>
+        <nav class="st">
+          <ul>
+            <li id="login" class="login_1"><button onclick="document.getElementById('id01').style.display='block'">Login</button></li>
+              <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'"
+              class="close" title="Close Modal">&times;</span>
+              <!-- Modal Content -->
+              <form class="modal-content animate" method="post">
+                <div class="container__1">
+                  <br>
+                  <label for="uname"><b>Username</b></label>
+                  <input  id="window-uname2" type="text" placeholder="Enter Username" name="uname" required>
+                  <br>
+                  <br>
+                  <label for="psw"><b>Password</b></label>
+                  <input id="window-psw2" type="password" placeholder="Enter Password" name="psw" required>
+                  <br>
+                  <br>
+                  <label class="remember">
+                    <input type="checkbox" checked="checked" name="remember"><small><small>Remember me</small></small>
+                  </label>
+                  <br>
+                  <br>
+                  <button id="b_log" type="submit"  value="sign in" onclick="search_admins()">Login</button>
+                  <br>
+                </div>
+                <div class="container__2" style="background-color:rgb(43, 39, 39)">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <br>
+              </form>
+            </div>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li id="regist" class="regist_1"><button onclick="document.getElementById('id02').style.display='block'">Register</button></li>
+            <div id="id02" class="modal_1">
+              <span onclick="document.getElementById('id02').style.display='none'"
+            class="close_1" title="Close Modal">&times;</span>
+            <!-- Modal Content -->
+            <form class="modal-content_1 animate" method="post">
+              <div class="container__3">
+                <br>
+                <br>
+                <br>
+                <div class="type_1">
+                  <input type="radio" name="gender" value="">Male
+                  <input type="radio" name="gender" value="">Female
+                </div>
+                <br>
+                <div class="first_last_name">
+                  <input class="window-uname3" type="text" placeholder="First name" name="uname" required>
+                  <input class="window-suname3" type="text" placeholder="Last name" name="suname" required>
+                </div>
+                <br>
+                <input class="uname" type="text" placeholder="Enter Username" name="uname" required>
+                <br>
+                <br>
+                <div class="type_2">
+                  <input class="_email" type="email" placeholder="Enter your Email" name="email" required>
+                </div>
+                <br>
+                <input class="_pas" type="password" placeholder="Enter Password" name="psw" required>
+                <br>
+                <br>
+                <div class="birth">
+                  <label class="birthdayl" for="birthday"><b>Birthdate: </b></label>
+                  <input class="birthday" type="date" id="birthday" name="birthday">
+                </div>
+                <br>
+                <div class="_submit">
+                  <button class="_submit_1" type="submit">Submit</button>
+                </div>
+              </div>
+              <div class="container__4" style="background-color:rgb(43, 39, 39)">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn_1">Cancel</button>
+                <br>
+                <br>
+            </form>
+          </div>
+         </ul>
+        </nav>
+        <br>
+        <br>
+      </header>
+    </div>
+    <img src="images/logo.png" alt="">
+  </body>
+</html>

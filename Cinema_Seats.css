@@ -1,0 +1,242 @@
+*{
+  box-sizing: border-box;
+/*! background: rgb(43,39,39); */
+}
+body{
+  lex-direction:column;
+  align-items: center;
+  height: 90vh;
+  margin:0;
+  font-family: Verdana, sans-serif;
+  background:  rgb(43, 39, 39);
+}
+header nav{
+  text-align: center;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+header nav ul li{
+  display: inline-block;
+  border: 2px rgba(255, 255, 255, 0) solid;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px 10px 30px 10px;
+  background-color: black;
+}
+header nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.st{
+  text-align: right;
+  margin: 30px;
+}
+.nd{
+  user-select: none;
+}
+.container{
+  user-select: none;
+}
+.movies{
+  margin-left: 50px;
+}
+ .about{
+  margin-left: 50px;
+}
+.contact{
+  margin-left: 50px;
+}
+a {
+  color: white;
+}
+._submit_2 a button{
+  position: relative;
+  top: 450px;
+  right: 50px;
+  cursor: pointer;
+  margin-left: 746px;
+  height: 46px;
+  width: 100px;
+  border-radius: 20px;
+  font-size: larger;
+  background-color: rgb(219, 49, 143);
+  font-weight: bold;
+  border: rgba(238, 130, 238, 0);
+  cursor: pointer;
+}
+header nav ul li a:hover{
+    color: rgb(71, 67, 67);
+}
+.lab_2 b{
+  position: relative;
+  top: 90px;
+  right: -302px;
+  user-select: none;
+}
+.selectBox_2{
+  width:120px;
+  height:30px;
+  background:  rgb(43, 39, 39);
+  outline:none;
+  position: absolute;
+  right:159px;
+  top: 210px;
+  color: white;
+}
+.showcase_1 ul{
+  position: fixed;
+  top: 190px;
+  right: 610px;
+  user-select: none;
+}
+.lab_1 b{
+  position: relative;
+  user-select: none;
+  top: 90px;
+  left: -290px;
+}
+.selectBox_1{
+  width:120px;
+  background:  rgb(43, 39, 39);
+  height:30px;
+  outline:none;
+  position: absolute;
+  left:90px;
+  top: 210px;
+  color: white;
+}
+.text #count{
+  margin-right: 10px;
+  font-size: 40px;
+}
+.text{
+  font-size: 40px;
+  user-select: none;
+}
+.text #total{
+  margin-right: 10px;
+  font-size: 40px;
+}
+.lab_1 b,.lab_2 b{
+  font-size: 20px;
+}
+.selectBox_1,.selectBox_2{
+  font-size: 15px;
+}
+.showcase{
+  font-size: 25px;
+}
+.container{
+  position: fixed;
+  left: 650px;
+  top: 240px;
+}
+.text{
+  position: fixed;
+  bottom: 150px;
+  top: 500px;
+  right: 250px;
+  color: white;
+}
+.lab_1{
+  color: white;
+  position: absolute;
+  left:25%;
+  top: 70px;
+}
+.lab_2{
+  color: white;
+  position: absolute;
+  right:25%;
+  top: 70px;
+}
+label div select option{
+  color: white;
+}
+.moviecontainer{
+  margin: 200px 0;
+}
+.moviecontainer select{
+  background-color: #fff;
+  border: 0;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  appearance:button;
+  -moz-appearance:button; /* Firefox */
+  -webkit-appearance:button; /* Safari and Chrome */
+}
+.container{
+  /*Give a 3D-positioned element some perspective:*/
+   perspective: 1000px; /*bt5ale shakl el krase mayel msh rectangle kda m7tot*/
+   margin-bottom: 10px;
+}
+.seat{
+  background-color: #444451;
+  height: 12px;
+  width: 15px;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.seat.selected{
+  background-color: green;
+}
+.seat.sold{
+  background-color: #fff;
+}
+.seat:nth-of-type(2) { /*the second seat class of its parent */
+  margin-right: 18px;
+}
+.seat:nth-last-of-type(2) { /*all except the second seat class of its parent */
+  margin-right: 18px;
+}
+.seat:not(.sold).hover{
+  cursor:pointer;
+  transform: scale(1.2);
+}
+.showcase.seat:not(.sold):hover{
+  cursor:default;
+  transform: scale(1);
+}
+.showcase
+{
+  padding: 5px,10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex; //flexable moviecontainer
+  justify-content: space-between;
+}
+.showcase li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0px 10px;
+}
+.showcase li small{
+  margin-left: 2px;
+}
+.row{
+  display: flex;
+}
+.screen
+{
+  background-color: #fff;
+  height: 100px;
+  width: 100%;
+  margin: 15px 0;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255,255,255,0.7); //shadow 2byad k2n fe do2 tal3 mn el shasha
+  margin:5px 0;
+}
+p.text span{
+  color:green;
+  top:250px;
+  right:100px;
+}
